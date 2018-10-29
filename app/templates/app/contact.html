@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    Empresa TechUp<br />
+    Rua Minha Luz, 7<br />
+    <abbr title="Telefone">Tel:</abbr>
+    98870 0119
+</address>
+
+<address>
+    <strong>Contato:</strong>   <a href="mailto:contato@example.com">contato@example.com</a><br />
+    <strong>Diretoria:</strong> <a href="mailto:diretoria@example.com">diretoria@example.com</a>
+</address>
+
+{% endblock %}
